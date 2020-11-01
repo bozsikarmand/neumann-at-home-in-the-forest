@@ -1,0 +1,147 @@
+
+body {
+	font-family: "Segoe UI";
+	font-size: 13px;
+	background: url("images/bg.jpg");
+}
+
+#nav {
+	position:static;
+	//position:relative;
+	//position:absolute;
+	//position:fixed;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	top:10px;
+}
+#header {
+	width: 820px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -62px;
+}
+#nav a {
+	font-size: 14px;
+}
+#nav ul
+{ 
+	list-style:none; 
+	color: white; 
+	line-height:45px;
+	height:25px;
+	font-size:12px;
+} 
+
+#nav ul li 
+{
+	cursor:pointer; 
+	float:left;
+	position:relative;
+	//position:static;
+	//position:absolute;
+	margin-right: 10px;
+	padding:0px 10px;
+	background-color: #D2691E;
+	border-right-style:dotted;
+	border-width:0px;
+} 
+
+#nav ul  li:last-child
+{
+	border-right:none;
+}
+
+#nav a 
+{ 
+	text-decoration:none; 
+} 
+
+#nav ul li a
+{
+	color: white; 
+}
+
+#nav ul li a:hover 
+{
+	color: DarkGreen;
+} 
+
+#nav ul li ul 
+{ 
+	position:absolute; 
+	left:-40px; 
+	top:45px; 
+	color: green;   
+	display:none; 
+	line-height:40px;
+	font-size:13px;
+} 
+
+#nav ul li:hover ul 
+{ 
+display:block;
+} 
+
+#nav ul li ul li {
+	padding: 0px 10px;  
+	border-top: dotted 1px Black; 
+	border-right:none;
+	list-style-type:none; 
+	background-color: #D2691E; 
+}
+
+#nav ul li ul li:first-child {
+	border-top: none;
+}
+
+
+#wrap {
+	background: url("images/bg2.jpg");
+	width: 800px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 14px;
+	text: black;
+	font-family: "Times New Roman";
+	padding: 10px;
+	margin-top: 50px;
+	
+}
+
+.title {
+	font-family: "Comic Sans MS";
+	font-size: 28px;
+	color: white;
+	text-decoration: underline;
+}
+
+.document {
+	margin-top: 5px;
+	font-size: 16px;
+	color: white;
+}
+
+.picture {
+	padding: 2px;
+	border: 1px solid gray;
+	border-radius: 2px;
+	margin-left: 1px;
+	margin-right: auto;
+	margin-top: 1px;
+}
+
+#footer {
+	padding: 10px;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	text-align: center;
+}
+
+.terkep {
+	padding: -10px;
+	width: 800px;
+	height: 534px;
+}

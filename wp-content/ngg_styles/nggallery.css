@@ -1,0 +1,26 @@
+                                                                                                                                /*
+CSS Name: Default Styles
+Description: NextGEN Default Gallery Stylesheet
+Author: Photocrati Media
+Version: 2.12
+
+This stylesheet is provided to allow users the ability of overriding the default styles for all display types
+*/
+
+.ngg-gallery-thumbnail img:hover
+{
+	background-color: #6d8a37 !important;
+}
+.ngg-gallery-thumbnail img 
+{
+	background-color: #fff5af !important;
+	border: 1px solid #6d8a37 !important;
+	display: block !important;
+	margin: 20px 20px 20px 20px !important;
+	padding: 3px !important;
+	position: relative !important;
+}
+                       
+                            
+                            
+                            
